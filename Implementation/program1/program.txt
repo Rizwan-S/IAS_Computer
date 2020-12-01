@@ -1,0 +1,26 @@
+The program in this directory is:
+
+int main()
+{
+	int a = 7, b = 2, c;
+	if(a >= b)
+	{
+		c = a - b;
+	}
+	else
+	{
+		c = a + b;
+	}
+}
+
+The instructions to execute the above program are:
+
+0	LOAD M(5)		SUB M(6)
+1	JUMP + M(3,0:19)	LOAD M(5)
+2	ADD M(6)		JUMP M(4, 0:19)
+3	LOAD M(5)		SUB M(6)
+4	STORE M(8)		HALT
+5	7
+6	2
+
+

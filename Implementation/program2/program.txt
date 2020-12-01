@@ -1,0 +1,30 @@
+The program in this directory is:
+
+int main()
+{
+	int a = 9, b;
+	if(a % 2 == 1)
+	{
+		b = 3 * a;
+	}
+	else
+	{
+		b = 2 * a;
+	}
+}
+
+The instructions to execute the above program are:
+
+0	LOAD M(7)		DIV M(8)
+1	SUB M(A)		JUMP + M(3, 20:39)
+2	LOAD MQ, M(7)		MUL M(8)
+3	JUMP M(4, 20:39)	LOAD MQ, M(7)
+4	MUL M(9)		STOR M(C)
+5	LOAD MQ			STOR M(D)
+6				HALT
+7	9
+8	2
+9	3
+A	1
+
+
