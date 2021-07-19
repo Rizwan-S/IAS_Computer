@@ -1,5 +1,5 @@
 # IAS_Computer
-Implementation of IAS Computer in verilog
+Implementation of IAS Computer in verilog. Implemented the logic for all the 21 available instructions in Vonn Neumann architecture.
 
 # Execution
 To execute the file, fetch 'memory.dat' file from either program1 or program2 folder and execute the following commands: 
